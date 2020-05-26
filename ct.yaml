@@ -1,2 +1,3 @@
 chart-dirs:
-  - my-chart-dir
+  - stable
+  - incubator
