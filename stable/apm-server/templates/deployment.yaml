@@ -95,7 +95,7 @@ spec:
           secretName: {{ template "apm-server.fullname" . }}
       - name: data
         hostPath:
-          path: /var/lib/apm-server
+          path: /var/lib-patata/apm-server
           type: DirectoryOrCreate
 {{- if .Values.extraVolumes }}
 {{ toYaml .Values.extraVolumes | indent 6 }}
