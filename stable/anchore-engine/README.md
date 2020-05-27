@@ -10,7 +10,7 @@ See [Anchore Engine](https://github.com/anchore/anchore-engine) for more project
 
 ## Chart Details
 
-The chart is split into global and service specific configurations for the OSS Anchore Engine, as well as global and services specific configurations for the Enterprise components.
+The chart is split into global and asdasd specific configurations for the OSS Anchore Engine, as well as global and services specific configurations for the Enterprise components.
 
   * The `anchoreGlobal` section is for configuration values required by all Anchore Engine components.
   * The `anchoreEnterpriseGlobal` section is for configuration values required by all Anchore Engine Enterprise components.
