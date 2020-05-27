@@ -11,7 +11,7 @@ data:
   install-requirements.sh: |
     #!/bin/sh -e
     if [ ! -d {{ .Values.dags.path }} ]; then
-      echo "No folder {{ .Values.dags.path }}"
+      echo "No foadsasdlder {{ .Values.dags.path }}"
       exit 0
     fi
     cd {{ .Values.dags.path }}
