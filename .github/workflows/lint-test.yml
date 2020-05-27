@@ -13,7 +13,7 @@ jobs:
         run: git fetch --prune --unshallow
 
       - name: Create kind cluster
-        uses: helm/kind-action@v1.0.0-rc.2
+        uses: helm/kind-action@v1.0.0-rc.1
 
       - name: Run chart-testing (template)
         uses: helm/chart-testing-action@v1.0.0-rc.2
