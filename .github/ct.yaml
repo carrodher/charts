@@ -1,4 +1,0 @@
-chart-dirs:
-  - stable
-  - incubator
-check-version-increment: true
